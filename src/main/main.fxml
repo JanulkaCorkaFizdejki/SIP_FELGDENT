@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
@@ -36,12 +37,16 @@
                   <Font name="System Bold" size="10.0" />
                </font>
             </Label>
-            <Pane fx:id="PANE_progress_ind_wrap" layoutX="14.0" layoutY="79.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="12.0" />
-            <Label layoutX="24.0" layoutY="10.0" text="Loading..." textFill="WHITE">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Label>
+            <Group fx:id="GR_loading_bottom" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <Pane fx:id="PANE_progress_ind_wrap" layoutY="2.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" />
+                  <Label layoutX="14.0" text="Loading..." textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
          </children>
       </AnchorPane>
    </bottom>
@@ -49,7 +54,7 @@
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
             <Circle fx:id="Avatar" fill="#d7dee4" layoutX="103.0" layoutY="80.0" radius="34.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
-            <Label alignment="CENTER" layoutX="5.0" layoutY="126.0" prefHeight="17.0" prefWidth="189.0" text="Robert Nowiński" textFill="WHITE">
+            <Label fx:id="LBL_user_name" alignment="CENTER" layoutX="5.0" layoutY="126.0" prefHeight="17.0" prefWidth="189.0" text="User" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>

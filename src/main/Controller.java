@@ -4,6 +4,7 @@ import datamodel.DATABASE_LOCAL;
 import datamodel.INTERNET_ACCESS;
 import javafx.application.Platform;
 import javafx.fxml.Initializable;
+import javafx.scene.Group;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.Tooltip;
@@ -27,6 +28,7 @@ public class Controller implements Initializable, NetworkObserver {
     public Label LBL_net_info;
     public Circle Avatar;
     public Pane PANE_progress_ind_wrap;
+    public Group GR_loading_bottom;
     private INTERNET_ACCESS internet_access = null;
     private ProgressIndicator progressIndicator = new ProgressIndicator();
 
@@ -50,9 +52,7 @@ public class Controller implements Initializable, NetworkObserver {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        progressIndicator.setPrefSize(10.0, 10.0);
-        progressIndicator.setStyle("-fx-progress-color: white");
-        PANE_progress_ind_wrap.getChildren().add(progressIndicator);
+
     }
 
     @Override
@@ -75,15 +75,26 @@ public class Controller implements Initializable, NetworkObserver {
     }
 
     private void setViewElements () throws SQLException {
+        // Set bottom loading group
+        GR_loading_bottom.setVisible(false);
+        progressIndicator.setPrefSize(10.0, 10.0);
+        progressIndicator.setStyle("-fx-progress-color: white");
+        PANE_progress_ind_wrap.getChildren().add(progressIndicator);
+        // ***
+
+        // Set avatar
         DatabaseManagerLocal databaseManagerLocal = new DatabaseManagerLocal();
         String query = "SELECT * FROM " + DATABASE_LOCAL.tables.sip_user + " LIMIT 1";
         ResultSet resultSet = databaseManagerLocal.select(query);
-        InputStream inputStream = new ByteArrayInputStream(Base64.getDecoder().decode(resultSet.getString("avatar")));
-
+        if (!(resultSet.getObject("avatar") instanceof Double)) {
+            InputStream inputStream = new ByteArrayInputStream(Base64.getDecoder().decode(resultSet.getString("avatar")));
+            Image image = new Image(inputStream);
+            Avatar.setFill(new ImagePattern(image));
+        }
         resultSet.close();
         databaseManagerLocal.close();
+        // ***
 
-        Image image = new Image(inputStream);
-        Avatar.setFill(new ImagePattern(image));
+
     }
 }
