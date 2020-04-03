@@ -1,12 +1,21 @@
 package main;
 
+import datamodel.HTTP_DATA_STATUS;
+import datamodel.INTERNET_ACCESS;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Group;
+import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import model.CheckNetworkAccess;
+import model.NetworkDataManager;
+import views.Alerts;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -31,21 +40,61 @@ public class ViewControllerFelgLoginPanel implements Initializable {
 
 
     public void loginFelgAction(ActionEvent actionEvent) {
+        LBL_error_message.setVisible(false);
+        LBL_error_message.setText("");
+
+        if (CheckNetworkAccess.INSTANCE.check().equals(INTERNET_ACCESS.NO_CONNECTION)) {
+            Alerts.simple.INSTANCE.show(Alert.AlertType.WARNING, "Uwaga!", INTERNET_ACCESS.NO_CONNECTION.message());
+            return;
+        }
+
         String login = LBL_login.getText();
         String password = LBL_password.getText();
 
-        if (login.isEmpty()  || password.isEmpty()) return;
+        if (login.isEmpty()  && password.isEmpty()) return;
 
         login = login.replaceAll("\\s", "");
         password = password.replaceAll("\\s", "");
 
-        if (login.length() > 4 || password.length() > 4) return;
-
-        System.out.println(login + " == " + password);
+        if (login.length() < 3 && password.length() < 3) {
+            LBL_error_message.setText("Minimalna liczba znaków w loginie i haśle = 3!");
+            LBL_error_message.setVisible(true);
+            return;
+        }
 
 
         GR_loading.setVisible(true);
-//        Stage stage = (Stage) BTN_logIn.getScene().getWindow();
-//        stage.close();
+
+        String finalLogin = login;
+        String finalPassword = password;
+        Runnable runnable = () -> {
+            NetworkDataManager networkDataManager = new NetworkDataManager();
+
+            HTTP_DATA_STATUS http = networkDataManager.loginFelg(finalLogin, finalPassword);
+            Platform.runLater(() -> {
+                GR_loading.setVisible(false);
+                if (http == HTTP_DATA_STATUS.LOGIN_PASSWORD_ERROR || http == HTTP_DATA_STATUS.SERVER_ERROR || http == HTTP_DATA_STATUS.DATA_ERROR) {
+                    LBL_error_message.setText(http.message());
+                    LBL_error_message.setVisible(true);
+                    System.out.println(http.message());
+                } else if (http == HTTP_DATA_STATUS.SERVER_DATA_OK) {
+                    try {
+                        goToContoller ();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+        };
+        Thread thread = new Thread(runnable);
+        thread.start();
+
+    }
+
+    private void goToContoller () throws IOException {
+        Stage stage = (Stage) BTN_logIn.getScene().getWindow();
+        stage.close();
+        Controller controller = new Controller();
+        controller.showThisViewController();
     }
 }

@@ -59,6 +59,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
+            <Circle fx:id="ICON_felg_user_status" fill="#28ca42" layoutX="126.0" layoutY="104.0" radius="6.7" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
          </children>
       </AnchorPane>
    </left>
