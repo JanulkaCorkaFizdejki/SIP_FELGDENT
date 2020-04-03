@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="800.0" style="-fx-background-color: #00b2e7;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="33.0" prefWidth="800.0" style="-fx-background-color: #00aadc;" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="ICON_net_status" fill="#28ca42" layoutX="778.0" layoutY="45.0" radius="6.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+            <Label fx:id="LBL_net_info" alignment="CENTER_RIGHT" layoutX="688.0" layoutY="5.0" prefHeight="21.0" prefWidth="85.0" text="Bark Internetu" textFill="WHITE" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="6.0">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Label>
+            <Group fx:id="GR_loading_bottom" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <Pane fx:id="PANE_progress_ind_wrap" layoutY="2.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" />
+                  <Label layoutX="14.0" text="Loading..." textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="Avatar" fill="#d7dee4" layoutX="103.0" layoutY="80.0" radius="34.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label fx:id="LBL_user_name" alignment="CENTER" layoutX="5.0" layoutY="126.0" prefHeight="17.0" prefWidth="189.0" text="User" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Circle fx:id="ICON_felg_user_status" fill="#28ca42" layoutX="126.0" layoutY="104.0" radius="6.7" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
