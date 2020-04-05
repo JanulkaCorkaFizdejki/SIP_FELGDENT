@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="sip_felgdent" uuid="92c06e98-57b6-4bdd-be8f-5c3992887b37">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\My Project\SIP_FELGDENT\src\sip_felgdent.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

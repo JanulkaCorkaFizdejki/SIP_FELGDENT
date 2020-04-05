@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="800.0" style="-fx-background-color: #00b2e7;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="800.0" style="-fx-background-color: #00b2e7;" stylesheets="/recource/main.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -53,14 +53,85 @@
    <left>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Circle fx:id="Avatar" fill="#d7dee4" layoutX="103.0" layoutY="80.0" radius="34.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
-            <Label fx:id="LBL_user_name" alignment="CENTER" layoutX="5.0" layoutY="126.0" prefHeight="17.0" prefWidth="189.0" text="User" textFill="WHITE">
+            <Circle fx:id="Avatar" fill="#d7dee4" layoutX="103.0" layoutY="62.0" radius="34.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label fx:id="LBL_user_name" alignment="CENTER" layoutX="5.0" layoutY="108.0" prefHeight="17.0" prefWidth="189.0" text="User" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Circle fx:id="ICON_felg_user_status" fill="#28ca42" layoutX="126.0" layoutY="104.0" radius="6.7" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="ICON_felg_user_status" fill="#28ca42" layoutX="123.0" layoutY="89.0" radius="6.7" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+            <Button layoutX="33.0" layoutY="178.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="141.0" styleClass="button-white" text="Dodaj kontakt" />
+            <Button layoutX="33.0" layoutY="222.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="141.0" styleClass="button-white" text="Konto SIP" />
          </children>
       </AnchorPane>
    </left>
+   <center>
+      <Pane prefHeight="562.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="PANE_call" layoutY="20.0" prefHeight="541.0" prefWidth="400.0">
+               <children>
+                  <Button layoutX="128.0" layoutY="288.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="141.0" styleClass="buttonCall"  />
+                  <Circle fx:id="AvatarCallUser" fill="#e8ebee" layoutX="199.0" layoutY="105.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" styleClass="avatar-contact-list" />
+                  <Label fx:id="LBL_call_pane_user_name" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="205.0" prefHeight="17.0" prefWidth="385.0" text="Nieznany" textFill="WHITE">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LBL_call_pane_phone_number" alignment="CENTER" layoutX="6.0" layoutY="242.0" prefHeight="17.0" prefWidth="385.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane fx:id="PANE_keyboard" layoutX="50.0" layoutY="389.0" prefHeight="151.0" prefWidth="300.0">
+                     <children>
+                        <GridPane fx:id="GRID_keyboardPane" prefHeight="144.0" prefWidth="300.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="22.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="22.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="22.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="22.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="22.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button layoutX="10.0" layoutY="9.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="1" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="2" GridPane.columnIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="3" GridPane.columnIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="4" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="7" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="*" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="#" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="Clear" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="+48" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="10.0" prefWidth="140.0" styleClass="buttonKeyboard" text="Back" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </Pane>
+                  <Button layoutX="179.0" layoutY="349.0" mnemonicParsing="false" onAction="#toogleKeyboard" prefHeight="10.0" prefWidth="40.0" styleClass="keyboardSelectButton" />
+               </children></Pane>
+         </children>
+      </Pane>
+   </center>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="PANE_contact_list_wrapper" layoutY="80.0" prefHeight="425.0" prefWidth="200.0" />
+            <Label layoutY="20.0" prefHeight="20.0" prefWidth="188.0" text="Lista kontaktów:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="-3.0" layoutY="47.0" prefHeight="25.0" prefWidth="183.0" styleClass="text-field-contact-search" />
+         </children></Pane>
+   </right>
 </BorderPane>
