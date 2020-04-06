@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="JVoIP">
     <CLASSES>
-      <root url="jar://D:/library/Java/JVoIP.zip!/" />
+      <root url="file://D:/library/Java/JVoIP" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://D:/library/Java/JVoIP" recursive="false" />
   </library>
 </component>

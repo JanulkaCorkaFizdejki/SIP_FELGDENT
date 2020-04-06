@@ -17,9 +17,11 @@ import javafx.fxml.Initializable;
 import javafx.scene.Cursor;
 import javafx.scene.Group;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -30,10 +32,13 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.util.Callback;
 import model.*;
+import views.Alerts;
 import views.Colors;
 import javafx.scene.image.Image;
 import views.WindowSizes;
 import views.WindowTitles;
+import webphone.webphone;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -61,6 +66,7 @@ public class Controller implements Initializable, NetworkObserver {
     public Label LBL_call_pane_phone_number;
     public Pane PANE_keyboard;
     public GridPane GRID_keyboardPane;
+    public Button BTN_call;
     private INTERNET_ACCESS internet_access = null;
     private ProgressIndicator progressIndicator = new ProgressIndicator();
     private Timer timer = new Timer();
@@ -68,6 +74,8 @@ public class Controller implements Initializable, NetworkObserver {
     ListView<String> contactList = null;
     ContextMenu contextMenuForContactList = new ContextMenu();
     private boolean keyboardVisible = true;
+    webphone wobj = new webphone();
+    boolean conversation = false;
 
 
     public void setContactList () throws SQLException {
@@ -100,15 +108,12 @@ public class Controller implements Initializable, NetworkObserver {
                             setFont(Font.font(14));
                             setCursor(Cursor.HAND);
                             setContextMenu(contextMenuForContactList);
-
                         }
-                    // setStyle("-fx-background-color: " + Colors.CYANhex00b2e7);
-
                     }
                 };
             }
         });
-       contactList.setStyle("-fx-background-color: " + Colors.CYANDARKhex00aadc);
+        contactList.setStyle("-fx-background-color: " + Colors.CYANDARKhex00aadc);
         contactList.setPrefWidth(180.0);
         System.out.println(contactList.getItems().getClass());
 
@@ -151,7 +156,7 @@ public class Controller implements Initializable, NetworkObserver {
 
         try {
             setViewElements();
-        } catch (SQLException e) {
+        } catch (SQLException | IOException e) {
             e.printStackTrace();
         }
 
@@ -165,11 +170,9 @@ public class Controller implements Initializable, NetworkObserver {
 
         NetStatusObservable netStatusObservable = new NetStatusObservable();
         netStatusObservable.attach(this);
-
-
     }
 
-    public void showThisViewController () throws IOException {
+    public void showThisViewController () throws IOException, SQLException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent root = (Parent) fxmlLoader.load();
         Stage stage = new Stage();
@@ -182,6 +185,15 @@ public class Controller implements Initializable, NetworkObserver {
             System.exit(0);
         });
 
+        DatabaseManagerLocal databaseManagerLocal = new DatabaseManagerLocal();
+        String query = "SELECT COUNT(*) AS count FROM " + DATABASE_LOCAL.tables.sip_account + " LIMIT 1";
+        ResultSet resultSet = databaseManagerLocal.select(query);
+        if (resultSet.getInt("count") == 0) {
+            editSIPLoginPane();
+        }
+
+        resultSet.close();
+        databaseManagerLocal.close();
     }
 
     @Override
@@ -206,7 +218,7 @@ public class Controller implements Initializable, NetworkObserver {
         });
     }
 
-    private void setViewElements () throws SQLException {
+    private void setViewElements () throws SQLException, IOException {
         // Set bottom loading group
         GR_loading_bottom.setVisible(false);
         progressIndicator.setPrefSize(10.0, 10.0);
@@ -228,7 +240,8 @@ public class Controller implements Initializable, NetworkObserver {
         }
         LBL_user_name.setText(resultSet.getString("user_name"));
         resultSet.close();
-        databaseManagerLocal.close();
+
+
         // ***
         MenuItem menuItemDeleteContactUser  = new MenuItem("Usuń");
         contextMenuForContactList.getItems().add(menuItemDeleteContactUser);
@@ -243,7 +256,7 @@ public class Controller implements Initializable, NetworkObserver {
                  });
              }
          });
-        
+
     }
 
     private void checkFelgLoginStatus () {
@@ -349,5 +362,85 @@ public class Controller implements Initializable, NetworkObserver {
 
     private static String removeLastChar(String str) {
         return str.substring(0, str.length() - 1);
+    }
+
+    public void showSipPane(ActionEvent actionEvent) {
+//        DatabaseManagerLocal databaseManagerLocal = new DatabaseManagerLocal();
+//        String query = "SELECT * FROM " + DATABASE_LOCAL.tables.sip_account + " LIMIT 1";
+    }
+
+    private void editSIPLoginPane () throws IOException {
+        Stage stage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("ViewControllerSIPLoginPanel.fxml"));
+        stage.setTitle(WindowTitles.login_sip);
+        stage.setScene(WindowSizes.login.INSTANCE.create(root));
+        stage.setResizable(false);
+        stage.getIcons().add(new Image("felgdent_logo_as_icon.png"));
+        stage.show();
+    }
+
+
+    public void call(ActionEvent actionEvent) throws SQLException, IOException {
+        String phone_number = LBL_call_pane_phone_number.getText();
+
+        if (phone_number.length() < 10) {
+            Alerts.simple.INSTANCE.show(Alert.AlertType.WARNING, "Nieprawidłowe dane!", "WPROWADŹ POPRAWNY NUMER TELEFONU");
+            return;
+        }
+
+        DatabaseManagerLocal databaseManagerLocal = new DatabaseManagerLocal();
+        String query = "SELECT COUNT(*) AS isset FROM " + DATABASE_LOCAL.tables.sip_account + " LIMIT 1";
+        ResultSet resultSet = databaseManagerLocal.select(query);
+
+        if (resultSet.getInt("isset") == 0) {
+            resultSet.close();
+            editSIPLoginPane();
+            databaseManagerLocal.close();
+            return;
+        }
+
+        if (resultSet.getInt("isset") == 1) {
+            resultSet.close();
+            conversation = !conversation;
+
+            if (conversation) {
+                BTN_call.getStyleClass().add("buttonCallConversation");
+            } else {
+                BTN_call.getStyleClass().remove("buttonCallConversation");
+                wobj.API_Stop();
+                return;
+            }
+            query = "SELECT * FROM " + DATABASE_LOCAL.tables.sip_account + " LIMIT 1";
+            resultSet = databaseManagerLocal.select(query);
+
+            String server   = resultSet.getString("server");
+            String user     = resultSet.getString("user_name");
+            String password = resultSet.getString("password");
+            resultSet.close();
+
+
+            if (PANE_keyboard.isVisible()) {
+                phone_number = phone_number.replaceAll("\\s", "");
+                phone_number = phone_number.replace("+", "");
+                System.out.println(phone_number);
+            } else {
+
+                query = "SELECT phone_number FROM " + DATABASE_LOCAL.tables.contacts + " WHERE user_phone_number = '" + phone_number + "' LIMIT 1";
+                resultSet = databaseManagerLocal.select(query);
+                phone_number = resultSet.getString("phone_number");
+                resultSet.close();
+                System.out.println(phone_number);
+            }
+            databaseManagerLocal.close();
+
+            wobj.API_SetParameter("serveraddress", server);
+            wobj.API_SetParameter("username", user);
+            wobj.API_SetParameter("password", password);
+            wobj.API_AudioDevice();
+            wobj.API_Start();
+            wobj.API_Call(-1, phone_number);
+
+        }
+
     }
 }

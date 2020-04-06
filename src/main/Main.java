@@ -34,7 +34,7 @@ public class Main extends Application {
 
         if (resultSet.getInt("isset") == 0) {
             Parent root = FXMLLoader.load(getClass().getResource("ViewControllerFelgLoginPanel.fxml"));
-            primaryStage.setTitle(WindowTitles.login_feelg);
+            primaryStage.setTitle(WindowTitles.login_felg);
             primaryStage.setScene(WindowSizes.login.INSTANCE.create(root));
             primaryStage.setResizable(false);
             primaryStage.getIcons().add(new Image("felgdent_logo_as_icon.png"));

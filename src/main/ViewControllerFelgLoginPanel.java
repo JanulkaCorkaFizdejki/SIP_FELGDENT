@@ -17,6 +17,7 @@ import views.Alerts;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class ViewControllerFelgLoginPanel implements Initializable {
@@ -80,7 +81,7 @@ public class ViewControllerFelgLoginPanel implements Initializable {
                 } else if (http == HTTP_DATA_STATUS.SERVER_DATA_OK) {
                     try {
                         goToContoller ();
-                    } catch (IOException e) {
+                    } catch (IOException | SQLException e) {
                         e.printStackTrace();
                     }
                 }
@@ -91,7 +92,7 @@ public class ViewControllerFelgLoginPanel implements Initializable {
 
     }
 
-    private void goToContoller () throws IOException {
+    private void goToContoller () throws IOException, SQLException {
         Stage stage = (Stage) BTN_logIn.getScene().getWindow();
         stage.close();
         Controller controller = new Controller();

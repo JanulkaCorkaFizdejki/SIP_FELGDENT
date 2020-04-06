@@ -9,8 +9,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="json-20190722" level="project" />
-    <orderEntry type="library" name="JVoIP" level="project" />
     <orderEntry type="library" name="sqlite-jdbc-3.8.10.1" level="project" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="JVoIP" level="project" />
   </component>
 </module>

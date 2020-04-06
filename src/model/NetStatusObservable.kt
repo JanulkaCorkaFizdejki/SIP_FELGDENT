@@ -41,8 +41,6 @@ class NetStatusObservable : NetworkObservable {
                     notifyObservers(currentConnection)
                     internetAccess = currentConnection
                 }
-
-
             }
         }
         timer.schedule(task, 500, 500)

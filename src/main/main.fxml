@@ -61,7 +61,7 @@
             </Label>
             <Circle fx:id="ICON_felg_user_status" fill="#28ca42" layoutX="123.0" layoutY="89.0" radius="6.7" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
             <Button layoutX="33.0" layoutY="178.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="141.0" styleClass="button-white" text="Dodaj kontakt" />
-            <Button layoutX="33.0" layoutY="222.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="141.0" styleClass="button-white" text="Konto SIP" />
+            <Button layoutX="33.0" layoutY="222.0" mnemonicParsing="false" onAction="#showSipPane" prefHeight="31.0" prefWidth="141.0" styleClass="button-white" text="Konto SIP" />
          </children>
       </AnchorPane>
    </left>
@@ -70,7 +70,7 @@
          <children>
             <Pane fx:id="PANE_call" layoutY="20.0" prefHeight="541.0" prefWidth="400.0">
                <children>
-                  <Button layoutX="128.0" layoutY="288.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="141.0" styleClass="buttonCall"  />
+                  <Button fx:id="BTN_call" layoutX="128.0" layoutY="288.0" mnemonicParsing="false" onAction="#call" prefHeight="43.0" prefWidth="141.0" styleClass="buttonCall" />
                   <Circle fx:id="AvatarCallUser" fill="#e8ebee" layoutX="199.0" layoutY="105.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" styleClass="avatar-contact-list" />
                   <Label fx:id="LBL_call_pane_user_name" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="205.0" prefHeight="17.0" prefWidth="385.0" text="Nieznany" textFill="WHITE">
                      <font>

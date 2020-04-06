@@ -1,0 +1,1150 @@
+[2020.04.06 11:57:11:960] EVENT,start thread Logger 32 {32} [4729]
+[2020.04.06 11:57:11:961] EVENT,file io allowed to u87wpcfg.dat {14} [4729]
+[2020.04.06 11:57:11:961] EVENT,set iswsptrt30 to 4 autotransportdetect=no usetunneling=0 {14} [4729]
+[2020.04.06 11:57:11:962] EVENT, upper server set9 to    {14} [4729]
+[2020.04.06 11:57:11:963] EVENT,common initialized {14} [4729]
+[2020.04.06 11:57:11:963] EVENT,common initialized1 [wpmain] {14} [4729]
+[2020.04.06 11:57:11:963] EVENT,apicall API_SetParameter serveraddress,46.105.182.20 [wpmain] {14} [4729]
+[2020.04.06 11:57:11:963] EVENT,start thread MAsyncTask 33 {33} [4729]
+[2020.04.06 11:57:11:963] EVENT,async task start 9 {33} [4729]
+[2020.04.06 11:57:11:963] EVENT,serveraddrlst2: a (170):  b:  c:  d:  e:  f:  g:  h:  i:  j:  {33} [4729]
+[2020.04.06 11:57:11:963] EVENT,read config file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfgex.dat (2536) {14} [4729]
+[2020.04.06 11:57:11:963] EVENT, configex load finished 77 {14} [4729]
+[2020.04.06 11:57:11:963] EVENT,      set parameter (from 6) serveraddress=46.105.182.20 {14} [4729]
+[2020.04.06 11:57:11:968] EVENT, network addr set to 192.168.55.101 {33} [4729]
+[2020.04.06 11:57:11:968] EVENT, network addr2 set to 192.168.55.101 {33} [4729]
+[2020.04.06 11:57:11:968] EVENT,async task 9 finished in 5 msec {33} [4729]
+[2020.04.06 11:57:12:050] EVENT,param serveraddress set to 46.105.182.20 [wpmain] {14} [4729]
+[2020.04.06 11:57:12:050] EVENT,apicall API_SetParameter username,JSSIP [wpmain] {14} [4729]
+[2020.04.06 11:57:12:050] EVENT,      set parameter (from 6) username=JSSIP {14} [4729]
+[2020.04.06 11:57:12:054] EVENT,param username set to JSSIP [wpmain] {14} [4729]
+[2020.04.06 11:57:12:054] EVENT,apicall API_SetParameter password,wAXNEBaXDJ [wpmain] {14} [4729]
+[2020.04.06 11:57:12:054] EVENT,      set parameter (from 6) password=***** {14} [4729]
+[2020.04.06 11:57:12:057] EVENT,param password set to wAXNEBaXDJ [wpmain] {14} [4729]
+[2020.04.06 11:57:12:057] EVENT,apicall API_AudioDevice [wpmain] {14} [4729]
+[2020.04.06 11:57:12:057] EVENT,apicall API_Start (0 471220393 rst: no) [wpmain] {14} [4729]
+[2020.04.06 11:57:12:058] EVENT,start thread webphonemain 36 {36} [4729]
+[2020.04.06 11:57:12:058] EVENT,cannot ReadCookie Unexpected error: This method should not be used unless loaded from plugin.jar {14} [4729]
+[2020.04.06 11:57:12:058] EVENT,will auto register on api_start because 1 [wpmain] {14} [4729]
+[2020.04.06 11:57:12:058] EVENT,regdetails: s: -1 0 471220394 471220296 98 [wpmain] {14} [4729]
+[2020.04.06 11:57:12:058] EVENT,apicall API_Call -2,+ [wpmain] {14} [4729]
+[2020.04.06 11:57:12:058] EVENT, switching idle state to false (from: 21) {14} [4729]
+[2020.04.06 11:57:12:065] EVENT,on init [wpmain] {36} [4729]
+[2020.04.06 11:57:12:066] EVENT, wpapiconnectport set to m 19421 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:106] EVENT,sysenv OS name: Windows 10 , arch: amd64 , vers: 10.0 , patch: - , type: x64  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:117] EVENT,sysenv CPU: little amd64  cpuspeed: 9000 (meassured: 0 0) cores: 8 dbg:  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:119] EVENT,sysenv JVM: Oracle Corporation Java(TM) SE Runtime Environment 1.8.0_191  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:121] EVENT,sysenv USR: PL pl Europe/Belgrade Robert  DESKTOP-V5715DS DESKTOP-V5715DS D:\My Project\SIP_FELGDENT  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:123] EVENT, sysenv path: D:\My Project\SIP_FELGDENT, datapath: D:\My Project\SIP_FELGDENT\mwphonedata, configfile: D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat, logfile: D:\My Project\SIP_FELGDENT\mwphonedata\webphonelog.dat, ext: D:\My Project\SIP_FELGDENT\mwphonedata\, alt: D:\My Project\SIP_FELGDENT\mwphonedata\, from: 413  a u87wpcfg.dat [wpmain] {36} [4729]
+[2020.04.06 11:57:12:123] EVENT, toolkit: sun.awt.windows.WToolkit@7122e6ed [wpmain] {36} [4729]
+[2020.04.06 11:57:12:124] EVENT,domain: D:, host: D:\My Project\SIP_FELGDENT, url: D:\My Project\SIP_FELGDENT, lib: C:\Program Files\Java\jdk1.8.0_191\bin [wpmain] {36} [4729]
+[2020.04.06 11:57:12:125] EVENT,sysenv charsrt: UTF-8 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:450] EVENT,deviceid: aPBag5AG [wpmain] {36} [4729]
+[2020.04.06 11:57:12:450] EVENT,JVoIP init (loglevel is 5) [wpmain] {36} [4729]
+[2020.04.06 11:57:12:450] EVENT,      get parameter (from 10014) audiodevicein=Default {36} [4729]
+[2020.04.06 11:57:12:451] EVENT,      get parameter (from 10014) audiodeviceout=Default {36} [4729]
+[2020.04.06 11:57:12:451] EVENT,      get parameter (from 10014) audiodevicering=Default {36} [4729]
+[2020.04.06 11:57:12:451] EVENT,      get parameter (from 10014) lastaltporttousecfg=0 {36} [4729]
+[2020.04.06 11:57:12:452] EVENT,      get parameter (from 10014) lastaltportchangeday=-2 {36} [4729]
+[2020.04.06 11:57:12:452] EVENT,      get parameter (from 10014) prevaltportused=0 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) finaltransport=0 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) mserverfound=0 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) checkedwidebandok=0 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) oldsignalingport=14292 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) systemsockproxywasset=0 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) aecwascached=2 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) lastrtpportsaved=14294 {36} [4729]
+[2020.04.06 11:57:12:453] EVENT,      get parameter (from 10014) lastserverrtpport=0 {36} [4729]
+[2020.04.06 11:57:12:454] EVENT,      get parameter (from 10014) lastcfgfileversion=87 {36} [4729]
+[2020.04.06 11:57:12:454] EVENT,      get parameter (from 10014) sendvideoonrec=1 {36} [4729]
+[2020.04.06 11:57:12:454] EVENT,      get parameter (from 10014) presenceuserlist=,+, {36} [4729]
+[2020.04.06 11:57:12:454] EVENT,      get parameter (from 10014) excontactlist=,+, {36} [4729]
+[2020.04.06 11:57:12:456] EVENT,      get parameter (from 10014) serverload=1 {36} [4729]
+[2020.04.06 11:57:12:457] EVENT, set server load: 1 {36} [4729]
+[2020.04.06 11:57:12:458] EVENT,      get parameter (from 10014) pushnotifications3=-1 {36} [4729]
+[2020.04.06 11:57:12:458] EVENT,      get parameter (from 10014) packagename=com.mizuvoip.mizudroid.app {36} [4729]
+[2020.04.06 11:57:12:458] EVENT,      get parameter (from 10014) fcmgateway=fcm.webvoipphone.com:35060 {36} [4729]
+[2020.04.06 11:57:12:458] EVENT,      get parameter (from 10014) pushnotifications=-1 {36} [4729]
+[2020.04.06 11:57:12:459] EVENT,read config file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (221) {36} [4729]
+[2020.04.06 11:57:12:459] EVENT,config version 7000187 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:459] WARNING,last call was not disconnected properly [wpmain] {36} [4729]
+[2020.04.06 11:57:12:459] EVENT,config read 69 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:467] EVENT,      get parameter (from 100111) serveraddress=46.105.182.20 {36} [4729]
+[2020.04.06 11:57:12:468] EVENT,      get parameter (from 100111) password=***** {36} [4729]
+[2020.04.06 11:57:12:468] EVENT,serveraddrlst2: a (75149):  b: 46.105.182.20 c:  d:  e:  f:  g:  h:  i:  j:  {36} [4729]
+[2020.04.06 11:57:12:468] EVENT,      get parameter (from 10014) packagename=com.mizuvoip.mizudroid.app {36} [4729]
+[2020.04.06 11:57:12:468] EVENT,      get parameter (from 10014) fcmgateway=fcm.webvoipphone.com:35060 {36} [4729]
+[2020.04.06 11:57:12:469] EVENT,      get parameter (from 10014) lasthasfcm=0 {36} [4729]
+[2020.04.06 11:57:12:469] EVENT,      get parameter (from 10014) pushnotifications=-1 {36} [4729]
+[2020.04.06 11:57:12:469] EVENT,      get parameter (from 10014) audiodevicein=Default {36} [4729]
+[2020.04.06 11:57:12:469] EVENT,      get parameter (from 10014) audiodeviceout=Default {36} [4729]
+[2020.04.06 11:57:12:469] EVENT,      get parameter (from 10014) audiodevicering=Default {36} [4729]
+[2020.04.06 11:57:12:508] EVENT,serveraddrlst12: a (112):  b: 46.105.182.20 c:  d:  e:  f:  g:  h:  i:  j:  {36} [4729]
+[2020.04.06 11:57:12:508] EVENT,      get parameter (from 10014) pastmaxcallcount=0 {36} [4729]
+[2020.04.06 11:57:12:509] EVENT,      get parameter (from 10014) presenceuserlist=,+, {36} [4729]
+[2020.04.06 11:57:12:510] EVENT,      get parameter (from 10014) excontactlist=,+, {36} [4729]
+[2020.04.06 11:57:12:510] EVENT,      get parameter (from 10014) askforwhitelist=1 {36} [4729]
+[2020.04.06 11:57:12:510] EVENT,      get parameter (from 10014) runservice=-1 {36} [4729]
+[2020.04.06 11:57:12:510] EVENT,      get parameter (from 10014) scheduledwakeup=1 {36} [4729]
+[2020.04.06 11:57:12:512] EVENT, try to load js [wpmain] {36} [4729]
+[2020.04.06 11:57:12:513] EVENT, upper server set0 to   {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 100111) serveraddress=46.105.182.20 {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 100111) serveraddress=46.105.182.20 {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 100111) serveraddress=46.105.182.20 {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 100111) username=JSSIP {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 10064) sipusername=JSSIP {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 100111) username=JSSIP {36} [4729]
+[2020.04.06 11:57:12:513] EVENT,      get parameter (from 10064) sipusername=JSSIP {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,sipusername (auth) is JSSIP [wpmain] {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,username (callerid) is JSSIP [wpmain] {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,callto is  48795747847 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:514] EVENT, lccccc trigger txr [wpmain] {36} [4729]
+[2020.04.06 11:57:12:514] EVENT, lccccc trigger xr {36} [4729]
+[2020.04.06 11:57:12:514] EVENT, lccccc trigger 10 {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,      get parameter (from 10014) allcallcount=16 {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,      get parameter (from 10014) allsucccallcount=1 {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,      get parameter (from 10014) lastcodecused=8 {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,      get parameter (from 10014) audiodevicehash=8710 {36} [4729]
+[2020.04.06 11:57:12:514] EVENT,      get parameter (from 10014) audiodevicehash2=8710 {36} [4729]
+[2020.04.06 11:57:12:515] EVENT, autovalues aec: 2, aecfast: 1, aecnative: 1, aecorig: 1, agc: 2, denoise: 3, plc: true [wpmain] {36} [4729]
+[2020.04.06 11:57:12:515] WARNING,disabling codec g729 because cannot load [wpmain] {36} [4729]
+[2020.04.06 11:57:12:515] EVENT,      get parameter (from 100111) password=***** {36} [4729]
+[2020.04.06 11:57:12:523] EVENT,JVoIP init finished2 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:523] EVENT, conncurrent instances in the same classloader: 1 {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,main thread started [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,JVoIP start 7.6.19061 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,afterstart event [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,app version: 7.6.19061 6/13/2019 11:56:20 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,app type: 3 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,codebase: null [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,docbase: null [wpmain] {36} [4729]
+[2020.04.06 11:57:12:524] EVENT,archive:  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:525] EVENT, startup wpapi a {36} [4729]
+[2020.04.06 11:57:12:528] EVENT, wpapiconnectport set to g0 19421 19421 [wpapi] {36} [4729]
+[2020.04.06 11:57:12:528] EVENT,start thread wpapi 42 {42} [4729]
+[2020.04.06 11:57:12:528] EVENT,set priority to service from wpapi {42} [4729]
+[2020.04.06 11:57:12:530] EVENT,wpapi udp listen on 19422 [wpapi] {42} [4729]
+[2020.04.06 11:57:12:530] EVENT, wpapiconnectport get at gx 19421 19421 [wpapi] {42} [4729]
+[2020.04.06 11:57:12:530] EVENT, wpapiconnectport set to g4 19421 19421 [wpapi] {42} [4729]
+[2020.04.06 11:57:12:530] EVENT, wpapi started successfully 3 [wpapi] {42} [4729]
+[2020.04.06 11:57:12:531] EVENT,NOTIFICATION_XRSS,START,api {42} [4729]
+[2020.04.06 11:57:12:531] EVENT,resending cached notifications [wpapi] {42} [4729]
+[2020.04.06 11:57:12:531] EVENT, api notification sent a 0 0 19422 19421 {42} [4729]
+[2020.04.06 11:57:12:568] EVENT,temp network interface address is 127.0.0.1 (with server: 46.105.182.20) {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,serveraddrlst32: a (11998):  b: 46.105.182.20 c:  d:  e:  f:  g:  h:  i:  j:  {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,temp network interface address is 192.168.55.101 (with server: 46.105.182.20) {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,local ip is 192.168.55.101 {36} [4729]
+[2020.04.06 11:57:12:568] EVENT, need for stun natcheck because server ip 46.105.182.20 46.105.182.20 {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,retry jsobj load [wpmain] {36} [4729]
+[2020.04.06 11:57:12:568] EVENT, try to load js [wpmain] {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,NOTIFICATION_XRSS,START,api {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,afterstart natcheck 1 192.168.55.101 46.105.182.20 46.105.182.20 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:568] EVENT,afterstart autostart [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT,direct call URI parsing is not enabled c  [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT, set called ext i to 48795747847 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT,start thread natcheck 43 {43} [4729]
+[2020.04.06 11:57:12:569] EVENT,first routepath set to 46.105.182.20 46.105.182.20 5060 as user JSSIP [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT,save settings wpb [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT,save settings wp [wpmain] {36} [4729]
+[2020.04.06 11:57:12:569] EVENT,udp nat bind to port 14292 (byf: 4) {43} [4729]
+[2020.04.06 11:57:12:569] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (217) {36} [4729]
+[2020.04.06 11:57:12:570] EVENT,config saved 217 [wpmain] {36} [4729]
+[2020.04.06 11:57:12:570] EVENT,starting sip stack [wpmain] {36} [4729]
+[2020.04.06 11:57:12:571] EVENT,waiting for mediaench to load and init {43} [4729]
+[2020.04.06 11:57:12:571] EVENT,start thread mediaench 44 {44} [4729]
+[2020.04.06 11:57:12:572] EVENT,set priority to service from mediaench1 {44} [4729]
+[2020.04.06 11:57:12:572] EVENT,mediaench thread start [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:572] EVENT,mediaench and aec load from system mediaench2x64 [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:573] WARNING, catch on loadlib from local m no mediaench2x64 in java.library.path {44} [4729]
+[2020.04.06 11:57:12:573] EVENT,mediaench and aec load from system failed. load from local path... [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:573] EVENT,checking exact file path D:\My Project\SIP_FELGDENT [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:573] EVENT,mediaench and aec load from local failed. load from web... [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:573] EVENT,mediaench load from web starting... [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:573] EVENT,mediaench load from web checking file cache1 D:\My Project\SIP_FELGDENT\mwphonedata\mediaench2x64870.dll [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:574] EVENT,mediaench load from web load from file cache1 D:\My Project\SIP_FELGDENT\mwphonedata\mediaench2x64870.dll [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:576] EVENT,mediaench loaded1 from D:\My Project\SIP_FELGDENT\mwphonedata\mediaench2x64870.dll [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:576] EVENT,mediaench vx found 21 [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:577] EVENT,upnp port assigment failed -3 {44} [4729]
+[2020.04.06 11:57:12:577] EVENT,mediaench thread stop with succ 21 [mediaench 0] {44} [4729]
+[2020.04.06 11:57:12:577] EVENT,set priority to min from mediaench122 (idle: false) {44} [4729]
+[2020.04.06 11:57:12:588] EVENT,creating sip stack [mt: 0] {36} [4729]
+[2020.04.06 11:57:12:588] EVENT,starting sip stack 2 ... [wpmain] {36} [4729]
+[2020.04.06 11:57:12:589] EVENT,starting sip stack 3 ... [wpmain] {36} [4729]
+[2020.04.06 11:57:12:591] EVENT,sip stack initiated [wpmain] {36} [4729]
+[2020.04.06 11:57:12:592] EVENT,afterstart event finished [wpmain] {36} [4729]
+[2020.04.06 11:57:12:597] EVENT,start thread MainThread 45 {45} [4729]
+[2020.04.06 11:57:12:598] EVENT,sip stack run start... [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:598] EVENT,sip stack run on 192.168.55.101 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:598] EVENT,sipstack initialising... [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:598] EVENT,sipstack initialising b... [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:598] EVENT,local signaling port using oldsignalingport 14292 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:598] EVENT, first tick no [wpmain] {36} [4729]
+[2020.04.06 11:57:12:599] EVENT,opening audio device form [wpmain] {36} [4729]
+[2020.04.06 11:57:12:599] EVENT, autotransportdetect=no, usetunneling=1 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:609] EVENT, check mep call state [mt: 13693] {36} [4729]
+[2020.04.06 11:57:12:624] EVENT,apicall API_Call_Now -2,+ [wpmain] {34} [4729]
+[2020.04.06 11:57:12:624] EVENT,NOTIFICATION_XRSS,STATUS,-1,Starting call to + {34} [4729]
+[2020.04.06 11:57:12:625] EVENT,network status is CONNECTED 122 122 {34} [4729]
+[2020.04.06 11:57:12:625] EVENT,network status is CONNECTED {34} [4729]
+[2020.04.06 11:57:12:625] EVENT,start thread inetcheck 47 {47} [4729]
+[2020.04.06 11:57:12:625] EVENT,set priority to min from inetcheck1 (idle: false) {47} [4729]
+[2020.04.06 11:57:12:626] EVENT,direct call URI parsing is not enabled c + [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT, set called ext i to + [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,first routepath set to 46.105.182.20 46.105.182.20 5060 as user JSSIP [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,save settings wpb [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,save settings wp [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (207) {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,config saved 207 [wpmain] {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,NOTIFICATION_XRSS,STATUS,-1,Connecting... {34} [4729]
+[2020.04.06 11:57:12:626] EVENT,reg state changed from [failed-2] to [working unknown] () {34} [4729]
+[2020.04.06 11:57:12:644] EVENT,local ip is 192.168.55.101 {45} [4729]
+[2020.04.06 11:57:12:644] EVENT,waiting for stun to complete [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:672] EVENT,mediaench upnp ok 5 0 {43} [4729]
+[2020.04.06 11:57:12:672] EVENT,check ip for mnt.mizu-voip.com from 0 {43} [4729]
+[2020.04.06 11:57:12:672] EVENT, a dns record request for mnt.mizu-voip.com fromcode: 0 {43} [4729]
+[2020.04.06 11:57:12:672] EVENT, a dns lookup for mnt.mizu-voip.com with 3000 msec timeout fromcode: 0 {43} [4729]
+[2020.04.06 11:57:12:673] EVENT,start thread MAsyncTask 48 {48} [4729]
+[2020.04.06 11:57:12:673] EVENT,async task start 8 {48} [4729]
+[2020.04.06 11:57:12:673] EVENT,check A record for mnt.mizu-voip.com fromcode: 0 {48} [4729]
+[2020.04.06 11:57:12:673] EVENT,async task dns a finished for mnt.mizu-voip.com: 148.251.28.180 {48} [4729]
+[2020.04.06 11:57:12:673] EVENT,async task 8 finished in 0 msec {48} [4729]
+[2020.04.06 11:57:12:674] EVENT,      get parameter (from 10014) dnscache_domain0=mnt.mizu-voip.com {43} [4729]
+[2020.04.06 11:57:12:674] EVENT,      get parameter (from 10014) dnscache_ip0=148.251.28.180 {43} [4729]
+[2020.04.06 11:57:12:674] EVENT,      get parameter (from 10014) dnscache_domain1=voipserver.mizu-voip.com {43} [4729]
+[2020.04.06 11:57:12:674] EVENT,      get parameter (from 10014) dnscache_ip1=148.251.28.179 {43} [4729]
+[2020.04.06 11:57:12:674] EVENT,check ip for voipserver.mizu-voip.com from 0 {43} [4729]
+[2020.04.06 11:57:12:674] EVENT, a dns record request for voipserver.mizu-voip.com fromcode: 0 {43} [4729]
+[2020.04.06 11:57:12:674] EVENT, a dns lookup for voipserver.mizu-voip.com with 3000 msec timeout fromcode: 0 {43} [4729]
+[2020.04.06 11:57:12:674] EVENT,start thread MAsyncTask 49 {49} [4729]
+[2020.04.06 11:57:12:674] EVENT,async task start 8 {49} [4729]
+[2020.04.06 11:57:12:674] EVENT,check A record for voipserver.mizu-voip.com fromcode: 0 {49} [4729]
+[2020.04.06 11:57:12:675] EVENT,async task dns a finished for voipserver.mizu-voip.com: 148.251.28.179 {49} [4729]
+[2020.04.06 11:57:12:675] EVENT,async task 8 finished in 1 msec {49} [4729]
+[2020.04.06 11:57:12:692] EVENT,rmixers: , supports “SourceDataLine Clip  Mixer: Podstawowy sterownik dwiêk, supports “SourceDataLine Clip , Direct Audio Device: DirectSound Playback {36} [4729]
+[2020.04.06 11:57:12:734] EVENT,rmixers: , supports “SourceDataLine Clip  Mixer: G³oniki (Realtek(R) Audi, supports “SourceDataLine Clip , Direct Audio Device: DirectSound Playback {36} [4729]
+[2020.04.06 11:57:12:734] EVENT,rmixers: , supports “SourceDataLine Clip  Mixer: Realtek Digital Output (Realtek(R) Audio), supports “SourceDataLine Clip , Direct Audio Device: DirectSound Playback {36} [4729]
+[2020.04.06 11:57:12:734] EVENT,rmixers: , supports “SourceDataLine Clip  Mixer: S2233W (NVIDIA High Definition Audio), supports “SourceDataLine Clip , Direct Audio Device: DirectSound Playback {36} [4729]
+[2020.04.06 11:57:12:735] EVENT,rmixers: , supports TargetDataLine  Mixer: Podstawowy sterownik przechwytywania dwiêk, supports TargetDataLine , Direct Audio Device: DirectSound Capture {36} [4729]
+[2020.04.06 11:57:12:735] EVENT,rmixers: , supports TargetDataLine  Mixer: Mikrofon (Realtek(R) Audio), supports TargetDataLine , Direct Audio Device: DirectSound Capture {36} [4729]
+[2020.04.06 11:57:12:735] EVENT,udp nat from first server 176.100.192.174:14292 {43} [4729]
+[2020.04.06 11:57:12:735] EVENT,check ip for voipserver.mizu-voip.com from 0 {43} [4729]
+[2020.04.06 11:57:12:735] EVENT,udp nat detected public: 176.100.192.174:14292 (private: 192.168.55.101:14292) {43} [4729]
+[2020.04.06 11:57:12:736] EVENT,rmixers: , supports Port  Mixer: Port G³oniki (Realtek(R) Audi, supports Port , Port Mixer {36} [4729]
+[2020.04.06 11:57:12:736] EVENT,rmixers: , supports Port  Mixer: Port Realtek Digital Output (Realtek, supports Port , Port Mixer {36} [4729]
+[2020.04.06 11:57:12:736] EVENT,rmixers: , supports Port  Mixer: Port S2233W (NVIDIA High Definition , supports Port , Port Mixer {36} [4729]
+[2020.04.06 11:57:12:736] EVENT,rmixers: , supports Port  Mixer: Port Mikrofon (Realtek(R) Audio), supports Port , Port Mixer {36} [4729]
+[2020.04.06 11:57:12:736] EVENT,, supports Port  Mixer: Port Mikrofon (Realtek(R) Audio), supports Port , Port Mixer {36} [4729]
+[2020.04.06 11:57:12:745] EVENT,stun completed 2 (localport: 14292) [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:748] EVENT,udp init [udp localport: 0 since: 0 ok] {45} [4729]
+[2020.04.06 11:57:12:749] EVENT,udp bind to port 14292 (signaling) [udp localport: 0 since: 0 ok] {45} [4729]
+[2020.04.06 11:57:12:749] EVENT,start thread TUDP 50 {50} [4729]
+[2020.04.06 11:57:12:749] EVENT,set priority to service from udp111 {50} [4729]
+[2020.04.06 11:57:12:749] EVENT,start thread Sender 46 {46} [4729]
+[2020.04.06 11:57:12:762] EVENT,AudioDevice
+[2020.04.06 11:57:12:766] EVENT,udp packet 1 received to signaling port 14292 from 148.251.28.179:44447. length is 57 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:12:793] EVENT,mainthread init done. privateaddress: 192.168.55.101:14292 publicaddress: 176.100.192.174:14292 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:793] EVENT,NOTIFICATION_XRSS,START,sip {45} [4729]
+[2020.04.06 11:57:12:794] EVENT, network state initialized as online [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:794] EVENT,      get parameter (from 10014) country=PL {45} [4729]
+[2020.04.06 11:57:12:794] EVENT,      get parameter (from 10014) geolocationtrycount=1 {45} [4729]
+[2020.04.06 11:57:12:794] EVENT,exec command 0 line: 1 params: +   elapsed 168 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:794] EVENT,init call [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:794] EVENT, returned free line is 1 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:797] EVENT,OnFirstCall [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:832] EVENT,on sip stack started [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,NOTIFICATION_XRSS,STATUS,-1,Initialized {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,sip stack started event finished [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,afterstart delayed register [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,Connect initiated a [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,direct call URI parsing is not enabled c  [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT, set called ext i to + [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,first routepath set to 46.105.182.20 46.105.182.20 5060 as user JSSIP [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,save settings wpb [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,save settings wp [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,config saved 207 [wpmain] {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,NOTIFICATION_XRSS,STATUS,-1,Register... {34} [4729]
+[2020.04.06 11:57:12:832] EVENT,will register 100 [wpmain] {34} [4729]
+[2020.04.06 11:57:12:842] EVENT,wideband is enabled because of old check [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:880] EVENT,init tags from: 4g6446283306617609909m to: 5p3489167328897909757h branch: 3k3885076936458450104u [ep: 0 2e4354309789759581837k20685rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, set called a to + [ep: 0 2e4354309789759581837k20685rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, set called b to + [ep: 0 2e4354309789759581837k20685rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,direct call URI parsing is not enabled a + [ep: 0 2e4354309789759581837k20685rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, new endpoint created 2e4354309789759581837k20685rmwp [ep: 0 2e4354309789759581837k20685rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, set called x to + [ep: 0 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, set called b to + [ep: 0 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,direct call URI parsing is not enabled a + [ep: 0 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT, set called h to + [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,ep call [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,create rtp outgoing call early [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,creating new socket A {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,loading lastrtpportsaved 14294+0 [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,udp init [udp localport: 0 since: 0 ok] {45} [4729]
+[2020.04.06 11:57:12:881] EVENT,udp bind to port 14294 (audio) [udp localport: 0 since: 0 ok] {45} [4729]
+[2020.04.06 11:57:12:882] EVENT, stun request c [udp localport: 14294 since: 0 ok] {45} [4729]
+[2020.04.06 11:57:12:882] EVENT, set payload to 8 PCMA (from 8 code: 4) [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:882] EVENT,start thread TUDP 51 {51} [4729]
+[2020.04.06 11:57:12:918] EVENT,udp packet 1 received to audio port 14294 from 148.251.28.180:44446. length is 42 [udp localport: 14294 since: 0 ok] {51} [4729]
+[2020.04.06 11:57:12:919] EVENT, rtp stun first answer 176.100.192.174:14294 [udp localport: 14294 since: 0 ok] {51} [4729]
+[2020.04.06 11:57:12:919] EVENT,udp packet 2 received to audio port 14294 from 148.251.28.179:44447. length is 42 [udp localport: 14294 since: 0 ok] {51} [4729]
+[2020.04.06 11:57:12:920] EVENT, rtp stun public address found as 176.100.192.174:14294 [udp localport: 14294 since: 0 ok] {51} [4729]
+[2020.04.06 11:57:12:925] EVENT, set called b to + [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:927] EVENT,direct call URI parsing is not enabled a + [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:927] EVENT,cseq set2 to 11324 [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:928] EVENT,build uri rule 6677 [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:928] EVENT, build leg rule 16 [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:928] EVENT, build leg rule 1901a  (x) [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:929] EVENT, set payload to 8 PCMA (from 8 code: 4) [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:930] EVENT,sending to p 46.105.182.20 (1194) [ep: 1 2e4354309789759581837k20685rmwp Setup 13693] {45} [4729]
+[2020.04.06 11:57:12:931] SEND,  to 46.105.182.20:5060 from port 14292
+INVITE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-5p3419070052478665272r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+To: <sip:+@46.105.182.20>
+Call-ID: 2e4354309789759581837k20685rmwp
+CSeq: 11325 INVITE
+Max-Forwards: 70
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+X-PLine: 1
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+X-CDDT: 471692,826886,14294,192.168.55.101,176.100.192.174
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Allow-Events: presence,refer,telephone-event,keep-alive,dialog
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Type: application/sdp
+Content-Length: 424
+
+v=0
+o=JSSIP 538 949 IN IP4 176.100.192.174
+s=jvoip
+c=IN IP4 176.100.192.174
+t=0 0
+m=audio 14294 RTP/AVP 111 105 97 0 8 3 101
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=16000; sprop-maxcapturerate=16000
+a=rtpmap:105 speex/16000
+a=fmtp:105 mode=8;mode=any
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:97 iLBC/8000
+a=fmtp:97 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=sendrecv
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:935] EVENT,switching state from Setup to Routed from 22 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {45} [4729]
+[2020.04.06 11:57:12:936] EVENT,NOTIFICATION_XRSS,PRESENCE,+,Open,Speaking {45} [4729]
+[2020.04.06 11:57:12:936] EVENT,NOTIFICATION_XRSS,STATUS,1,CallSetup,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,4,1,0,0,0,0,,0,0,0,100, {45} [4729]
+[2020.04.06 11:57:12:937] EVENT,check mep call state ex [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:937] EVENT,set deleteat 444 to 120000 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {45} [4729]
+[2020.04.06 11:57:12:937] EVENT,call begin maintenance [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {45} [4729]
+[2020.04.06 11:57:12:937] EVENT,NOTIFICATION_XRSS,STATUS,1,Routed,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,4,1,0,0,0,0,,0,0,0,100, {45} [4729]
+[2020.04.06 11:57:12:937] EVENT,STATUS,1,Routed,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,4,1,0,0,0,0,,0,0,0,100, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:938] EVENT,exec command 5 line: 1 params:  registerbuttonclick  elapsed 102 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:938] EVENT,creating reg endpoint because registerbuttonclick [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:939] EVENT,Connecting...
+[2020.04.06 11:57:12:939] EVENT,init tags from: 8g3330889867103573264m to: 9p9029117768912880423h branch: 7k7972157265071143259u [ep: 0 6e5339952673226462088k20686rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:940] EVENT, set called a to + [ep: 0 6e5339952673226462088k20686rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:940] EVENT, set called b to + [ep: 0 6e5339952673226462088k20686rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:940] EVENT, new endpoint created 6e5339952673226462088k20686rmwp [ep: 0 6e5339952673226462088k20686rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:12:940] EVENT,reg state change from Not initialized to Working [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT,ep send reg msg because registerbuttonclick [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT, set called a to + [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT, set called b to + [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT,cseq set2 to 5543 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT,build uri rule 4 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT, build leg rule 16 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT, build leg rule 18 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] EVENT,sending to p 46.105.182.20 (684) [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:12:944] SEND,  to 46.105.182.20:5060 from port 14292
+REGISTER sip:46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-9p5413510604551915321r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+To: <sip:JSSIP@46.105.182.20>
+Call-ID: 6e5339952673226462088k20686rmwp
+CSeq: 5544 REGISTER
+Max-Forwards: 70
+Expires: 120
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Allow-Events: presence,refer,telephone-event,keep-alive,dialog
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:945] EVENT,NOTIFICATION_XRSS,STATUS,0,Registering,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,4,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:12:945] EVENT,STATUS,0,Registering,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,4,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:12:945] EVENT, check mep call state [mt: 13693] {34} [4729]
+[2020.04.06 11:57:12:945] EVENT,rtp recorded: 0, sent: 0, received: 0, playback: 0, transport: 0, idle: false, speaking: false (last ~10 second statistics) [wpmain] {34} [4729]
+[2020.04.06 11:57:12:945] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call Initiated {34} [4729]
+[2020.04.06 11:57:12:966] EVENT,udp packet 2 received to signaling port 14292 from 46.105.182.20:5060. length is 273 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT, udp start rec from 46.105.182.20:5060 (273) [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:12:966] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 11325 INVITE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-5p3419070052478665272r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+Call-ID: 2e4354309789759581837k20685rmwp
+To: <sip:+@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,cseq set1 to 11325 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,set fromtag 1 to: 4g6446283306617609909m [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,switching state from Routed to InProgress from 10 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,set deleteat 444 to 120000 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:966] EVENT,udp packet 3 received to signaling port 14292 from 46.105.182.20:5060. length is 409 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:12:966] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 407 Proxy Authentication Required
+CSeq: 11325 INVITE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-5p3419070052478665272r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+Call-ID: 2e4354309789759581837k20685rmwp
+To: <sip:+@46.105.182.20>;tag=115739651308729
+Proxy-Authenticate: DIGEST realm="VoipSwitch", nonce="26d22eb908b79ec406111109704573914114"
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:967] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:967] EVENT,cseq set1 to 11325 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,set totag 1 to: 115739651308729 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,build uri rule 6677 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, build leg rule 13 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, build leg rule 132 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,sending to p 46.105.182.20 (460) [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] SEND,  to 46.105.182.20:5060 from port 14292
+ACK sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-5p3419070052478665272r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+To: <sip:+@46.105.182.20>;tag=115739651308729
+Call-ID: 2e4354309789759581837k20685rmwp
+CSeq: 11325 ACK
+Max-Forwards: 70
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+X-PLine: 1
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,resend last request [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,build uri rule 6677 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, build leg rule 16 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, build leg rule 1901a  (x) [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,auth after pwd parameterA JSSIP:VoipSwitch:wAXNEBaXDJ eeace1f440ea9c8ea4bb0ba705770da9 sip:+@46.105.182.20 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, auth params: m1str=eeace1f440ea9c8ea4bb0ba705770da9,auth_nonce=26d22eb908b79ec406111109704573914114,username=JSSIP,auth_realm=VoipSwitch,method=INVITE,uri=sip:+@46.105.182.20 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT, set payload to 8 PCMA (from 8 code: 4) [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:968] EVENT,sending to p 46.105.182.20 (1324) [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:12:969] SEND,  to 46.105.182.20:5060 from port 14292
+INVITE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-9p3821659128242063264r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+To: <sip:+@46.105.182.20>
+Call-ID: 2e4354309789759581837k20685rmwp
+CSeq: 11326 INVITE
+Max-Forwards: 70
+Proxy-Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22eb908b79ec406111109704573914114",uri="sip:+@46.105.182.20",response="e84ad4b0469c94e672a4500bbd41790f",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+X-PLine: 1
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+X-CDDT: 471692,826886,14294,192.168.55.101,176.100.192.174
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Type: application/sdp
+Content-Length: 424
+
+v=0
+o=JSSIP 538 950 IN IP4 176.100.192.174
+s=jvoip
+c=IN IP4 176.100.192.174
+t=0 0
+m=audio 14294 RTP/AVP 111 105 97 0 8 3 101
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 maxplaybackrate=16000; sprop-maxcapturerate=16000
+a=rtpmap:105 speex/16000
+a=fmtp:105 mode=8;mode=any
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:97 iLBC/8000
+a=fmtp:97 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=sendrecv
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:969] EVENT,udp packet 4 received to signaling port 14292 from 46.105.182.20:5060. length is 395 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:12:969] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 401 Unauthorised
+CSeq: 5544 REGISTER
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-9p5413510604551915321r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+Call-ID: 6e5339952673226462088k20686rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308729
+Content-Length: 0
+WWW-Authenticate: DIGEST realm="VoipSwitch", nonce="26d22eb90ecee2a106111109704573914114"
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,cseq set1 to 5544 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,set fromtag 1 to: 8g3330889867103573264m [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,set totag 1 to: 115739651308729 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,resend last request [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,build uri rule 4 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT, build leg rule 16 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT, build leg rule 18 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,auth after pwd parameterA JSSIP:VoipSwitch:wAXNEBaXDJ eeace1f440ea9c8ea4bb0ba705770da9 sip:46.105.182.20 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT, auth params: m1str=eeace1f440ea9c8ea4bb0ba705770da9,auth_nonce=26d22eb90ecee2a106111109704573914114,username=JSSIP,auth_realm=VoipSwitch,method=REGISTER,uri=sip:46.105.182.20 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:970] EVENT,sending to p 46.105.182.20 (806) [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:12:971] SEND,  to 46.105.182.20:5060 from port 14292
+REGISTER sip:46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-9p6372812940603550701r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+To: <sip:JSSIP@46.105.182.20>
+Call-ID: 6e5339952673226462088k20686rmwp
+CSeq: 5545 REGISTER
+Max-Forwards: 70
+Expires: 120
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22eb90ecee2a106111109704573914114",uri="sip:46.105.182.20",response="6ecd52734f2458b1b206557bcdd73d80",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:12:973] EVENT,NOTIFICATION_XRSS,STATUS,-1,Calling... {36} [4729]
+[2020.04.06 11:57:12:988] EVENT,NOTIFICATION_XRSS,STATUS,1,InProgress,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,4,1,0,0,0,0,,0,0,0,100, {45} [4729]
+[2020.04.06 11:57:12:988] EVENT,STATUS,1,InProgress,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,4,1,0,0,0,0,,0,0,0,100, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:002] EVENT,udp packet 5 received to signaling port 14292 from 46.105.182.20:5060. length is 273 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:13:002] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 11326 INVITE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-9p3821659128242063264r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+Call-ID: 2e4354309789759581837k20685rmwp
+To: <sip:+@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:002] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:002] EVENT,cseq set1 to 11326 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:13:002] EVENT,udp packet 6 received to signaling port 14292 from 46.105.182.20:5060. length is 278 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:13:002] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 5545 REGISTER
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-9p6372812940603550701r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+Call-ID: 6e5339952673226462088k20686rmwp
+To: <sip:JSSIP@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:002] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:002] EVENT,cseq set1 to 5545 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,udp packet 7 received to signaling port 14292 from 46.105.182.20:5060. length is 361 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:13:010] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 200 OK
+CSeq: 5545 REGISTER
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-9p6372812940603550701r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+Call-ID: 6e5339952673226462088k20686rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308776
+Contact: <sip:JSSIP@192.168.55.101:14292>;expires=60
+Expires: 60
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,cseq set1 to 5545 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,set totag 1 to: 115739651308776 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,reg state change from Not initialized to Success [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,reg state changed from [working unknown] to [yes] (Currently registered) {50} [4729]
+[2020.04.06 11:57:13:010] EVENT,authenticated successfully 1 2 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:13:011] EVENT,Authenticated successfully.
+[2020.04.06 11:57:13:019] EVENT,udp packet 8 received to signaling port 14292 from 46.105.182.20:5060. length is 306 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:13:020] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 503 Service Unavailable
+CSeq: 11326 INVITE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-9p3821659128242063264r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+Call-ID: 2e4354309789759581837k20685rmwp
+To: <sip:+@46.105.182.20>;tag=115739651308791
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,cseq set1 to 11326 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,set totag 1 to: 115739651308791 [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:13:020] WARNING,call rejected: Service Unavailable [ep: 1 2e4354309789759581837k20685rmwp Calling 13693] {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,switching state from InProgress to Finishing from 345 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,NOTIFICATION_XRSS,PRESENCE,+,Open,Available {50} [4729]
+[2020.04.06 11:57:13:020] EVENT,NOTIFICATION_XRSS,STATUS,1,CallDisconnect,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,2,0,0,0,0,0, {50} [4729]
+[2020.04.06 11:57:13:020] EVENT, destroy rtp [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:021] EVENT,parking socket A {50} [4729]
+[2020.04.06 11:57:13:021] EVENT,set deleteat 444 to 120000 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:021] EVENT, call details: 
+Line: 1 , Direction: outgoing
+Local Username: JSSIP , AuthUsername: JSSIP
+Peer Username: + , Name: + Called: +
+Server: 46.105.182.20  
+Connectime: 139 msec
+Duration: 0 msec
+Disc By: Remote , Reason: Service Unavailable
+AEC_SETT: 1, AEC_FULL: 2, AEC_FAST: 1, no, AEC_VOL: 1, AGC: 2, Denoise: 2
+Payload: 8 PCMA, pf: 1, network: fast  
+CPU: speed: 9000, load: 0.0, reccpuhigh: false, subshigh: 0, highdetected: no, meassured: 0 0, cores: 8, dbg:  
+
+ [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:021] EVENT,NOTIFICATION_XRSS,CDR,1,+,JSSIP,+,46.105.182.20,139,0,2,Service Unavailable,[2e4354309789759581837k20685rmwp] {50} [4729]
+[2020.04.06 11:57:13:021] CDR,1,+,JSSIP,+,46.105.182.20,139,0,2,Service Unavailable [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,Call duration: 0 sec
+[2020.04.06 11:57:13:022] EVENT, stats: 
+
+Calls> callcount: 1, allcallcount: 17, allsucccallcount: 1, plgoodcalls: 0, subsnosucccall: -24
+RTP> rtppacketsent: 0, rtppacketrec: 0, rtppacketloss: 0, losspercent: 100, srv_rtppacketsent: -1, srv_rtppacketrec: -1, srv_rtppacketloss: -1, srv_rtppacketlosspercent: -1 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,build uri rule 6677 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT, build leg rule 13 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT, build leg rule 132 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,sending to p 46.105.182.20 (610) [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] SEND,  to 46.105.182.20:5060 from port 14292
+ACK sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-9p3821659128242063264r
+From: <sip:JSSIP@46.105.182.20>;tag=4g6446283306617609909m
+To: <sip:+@46.105.182.20>;tag=115739651308791
+Call-ID: 2e4354309789759581837k20685rmwp
+CSeq: 11326 ACK
+Max-Forwards: 70
+Proxy-Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22eb908b79ec406111109704573914114",uri="sip:+@46.105.182.20",response="e84ad4b0469c94e672a4500bbd41790f",algorithm=MD5
+X-UT: j
+X-PLine: 1
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,session disc because rejected 503 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,switching state from Finishing to Finished from 17 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:022] EVENT,set deleteat 444 to 120000 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:023] EVENT,call end maintenance [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {50} [4729]
+[2020.04.06 11:57:13:023] ERROR,503 server failure Service Unavailable
+[2020.04.06 11:57:13:035] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call Finished {34} [4729]
+[2020.04.06 11:57:13:035] EVENT,start thread MAsyncTask 52 {52} [4729]
+[2020.04.06 11:57:13:036] EVENT,async task start 18 {52} [4729]
+[2020.04.06 11:57:13:036] EVENT,async task 18 finished in 0 msec {52} [4729]
+[2020.04.06 11:57:13:041] EVENT,exec command 27 line: 1 params:    elapsed 31 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, check presence for: ,+, /  [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, no presence for these contacts:  [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, create new presence publish ep a [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT,init tags from: 12g5766551949498344696m to: 13p8391126678285656464h branch: 11k4031647014132025359u [ep: 0 10e1780113570031029837k20687rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, set called a to + [ep: 0 10e1780113570031029837k20687rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, set called b to + [ep: 0 10e1780113570031029837k20687rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT,direct call URI parsing is not enabled a + [ep: 0 10e1780113570031029837k20687rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, new endpoint created 10e1780113570031029837k20687rmwp [ep: 0 10e1780113570031029837k20687rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT, set called b to JSSIP [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT,direct call URI parsing is not enabled a JSSIP [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:041] EVENT,cseq set2 to 1212 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:042] EVENT,build uri rule 6677 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:042] EVENT, build leg rule 16 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:042] EVENT, build leg rule 1901a  (x) [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:042] EVENT,sending to p 46.105.182.20 (1404) [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:042] SEND,  to 46.105.182.20:5060 from port 14292
+PUBLISH sip:JSSIP@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-13p8844070323774240085r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+To: <sip:JSSIP@46.105.182.20>
+Call-ID: 10e1780113570031029837k20687rmwp
+CSeq: 1213 PUBLISH
+Max-Forwards: 70
+Event: presence
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: multipart/related, application/rlmi+xml, application/pidf+xml
+Content-Type: application/pidf+xml
+Content-Length: 724
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence
+xmlns="urn:ietf:params:xml:ns:pidf"
+xmlns:dm="urn:ietf:params:xml:ns:pidf:data-model"
+xmlns:rpid="urn:ietf:params:xml:ns:pidf:rpid"
+xmlns:p="urn:sy-com:pidf-status-type"
+xmlns:ts="urn:ietf:params:xml:ns:pidf:terminal-status"
+entity="pres:JSSIP@176.100.192.174:14292">
+<note>Available</note>
+<tuple id="tbasic">
+<status>
+<basic>Open</basic>
+<ts:state>Available</ts:state>
+<p:im>Available</p:im>
+</status>
+<timestamp>2020.04.06 11:57:13</timestamp>
+<contact>sip:JSSIP@176.100.192.174:14292</contact>
+<note>Available</note>
+</tuple>
+<rpid:user-input>active</rpid:user-input>
+<dm:person id="aPBag5AG">
+<dm:note>Available</dm:note> </dm:person>
+</presence>
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT, create new presence subscriber ep for + [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT,init tags from: 16g2770579009458563649m to: 17p8847231982302666675h branch: 15k8941324971087589679u [ep: 0 14e1830458300895194552k20688rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT, set called a to + [ep: 0 14e1830458300895194552k20688rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT, set called b to + [ep: 0 14e1830458300895194552k20688rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT,direct call URI parsing is not enabled a + [ep: 0 14e1830458300895194552k20688rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT, new endpoint created 14e1830458300895194552k20688rmwp [ep: 0 14e1830458300895194552k20688rmwp Init 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT, set called b to + [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT,direct call URI parsing is not enabled a + [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT,cseq set2 to 12247 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:043] EVENT,build uri rule 6677 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT, build leg rule 16 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT, build leg rule 1901a  (x) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,sending to p 46.105.182.20 (653) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:13:044] SEND,  to 46.105.182.20:5060 from port 14292
+SUBSCRIBE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p286934394765636704r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+To: <sip:+@46.105.182.20>
+Call-ID: 14e1830458300895194552k20688rmwp
+CSeq: 12248 SUBSCRIBE
+Max-Forwards: 70
+Event: presence
+Expires: 3600
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: multipart/related, application/rlmi+xml, application/pidf+xml
+Content-Length: 0
+
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT, presence subscribe sent to 1 ua, already found 0 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,NOTIFICATION_XRSS,STATUS,1,Finished,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,2,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,STATUS,1,Finished,+,JSSIP,1,+,[2e4354309789759581837k20685rmwp],1,2,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,2,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,STATUS,0,Registered,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,2,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,NOTIFICATION_XRSS,STATUS,0,Subscribe,JSSIP,JSSIP,1,46.105.182.20,[10e1780113570031029837k20687rmwp],1,2,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,STATUS,0,Subscribe,JSSIP,JSSIP,1,46.105.182.20,[10e1780113570031029837k20687rmwp],1,2,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,NOTIFICATION_XRSS,STATUS,0,Subscribe,+,JSSIP,1,+,[14e1830458300895194552k20688rmwp],1,2,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:13:044] EVENT,STATUS,0,Subscribe,+,JSSIP,1,+,[14e1830458300895194552k20688rmwp],1,2,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:13:076] EVENT,udp packet 9 received to signaling port 14292 from 46.105.182.20:5060. length is 280 [udp localport: 14292 since: 0 ok] {50} [4729]
+[2020.04.06 11:57:13:076] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 1213 PUBLISH
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-13p8844070323774240085r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+Call-ID: 10e1780113570031029837k20687rmwp
+To: <sip:JSSIP@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,cseq set1 to 1213 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,set fromtag 1 to: 12g5766551949498344696m [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 401 Unauthorised
+CSeq: 12248 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p286934394765636704r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>;tag=115739651308838
+Contact: <sip:+@46.105.182.20>
+Content-Length: 0
+WWW-Authenticate: DIGEST realm="VoipSwitch", nonce="26d22f260ec26cb606111109704573914114"
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,cseq set1 to 12248 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,set fromtag 1 to: 16g2770579009458563649m [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,set totag 1 to: 115739651308838 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,resend last request [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:076] EVENT,build uri rule 6677 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT, build leg rule 16 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT, build leg rule 1901a  (x) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,auth after pwd parameterA JSSIP:VoipSwitch:wAXNEBaXDJ eeace1f440ea9c8ea4bb0ba705770da9 sip:+@46.105.182.20 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT, auth params: m1str=eeace1f440ea9c8ea4bb0ba705770da9,auth_nonce=26d22f260ec26cb606111109704573914114,username=JSSIP,auth_realm=VoipSwitch,method=SUBSCRIBE,uri=sip:+@46.105.182.20 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,sending to p 46.105.182.20 (842) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] SEND,  to 46.105.182.20:5060 from port 14292
+SUBSCRIBE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p3150962404020312735r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+To: <sip:+@46.105.182.20>
+Call-ID: 14e1830458300895194552k20688rmwp
+CSeq: 12249 SUBSCRIBE
+Max-Forwards: 70
+Event: presence
+Expires: 3600
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22f260ec26cb606111109704573914114",uri="sip:+@46.105.182.20",response="18bde56f578820933f8c40fe90cebb3a",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: multipart/related, application/rlmi+xml, application/pidf+xml
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:077] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 401 Unauthorised
+CSeq: 1213 PUBLISH
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-13p8844070323774240085r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+Call-ID: 10e1780113570031029837k20687rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308838
+Content-Length: 0
+WWW-Authenticate: DIGEST realm="VoipSwitch", nonce="26d22f2610635f1f06111109704573914114"
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,cseq set1 to 1213 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,set totag 1 to: 115739651308838 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,resend last request [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,build uri rule 6677 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT, build leg rule 13 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT, build leg rule 132 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:077] EVENT,auth after pwd parameterA JSSIP:VoipSwitch:wAXNEBaXDJ eeace1f440ea9c8ea4bb0ba705770da9 sip:JSSIP@46.105.182.20 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:078] EVENT, auth params: m1str=eeace1f440ea9c8ea4bb0ba705770da9,auth_nonce=26d22f2610635f1f06111109704573914114,username=JSSIP,auth_realm=VoipSwitch,method=PUBLISH,uri=sip:JSSIP@46.105.182.20 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:078] EVENT,sending to p 46.105.182.20 (1429) [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:078] SEND,  to 46.105.182.20:5060 from port 14292
+PUBLISH sip:JSSIP@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p6851759334577550507r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308838
+Call-ID: 10e1780113570031029837k20687rmwp
+CSeq: 1214 PUBLISH
+Max-Forwards: 70
+Event: presence
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22f2610635f1f06111109704573914114",uri="sip:JSSIP@46.105.182.20",response="35a40236d65cbe2e3842a0dc3865f6d5",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: multipart/related, application/rlmi+xml, application/pidf+xml
+Content-Type: application/pidf+xml
+Content-Length: 537
+
+<?xml version="1.0" encoding="UTF-8"?>
+<presence
+xmlns="urn:ietf:params:xml:ns:pidf"
+xmlns:dm="urn:ietf:params:xml:ns:pidf:data-model"
+xmlns:c="urn:ietf:params:xml:ns:pidf:cipid"
+xmlns:ts="urn:ietf:params:xml:ns:pidf:terminal-status"
+entity="pres:JSSIP@176.100.192.174:14292">
+<note>Available</note>
+<tuple id="tbasic">
+<status>
+<basic>Open</basic>
+<ts:state>Available</ts:state>
+</status>
+<contact>sip:JSSIP@176.100.192.174:14292</contact>
+<note>Available</note>
+<c:display-name></c:display-name>
+</tuple>
+</presence>
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:109] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 12249 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p3150962404020312735r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>
+Contact: <sip:+@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:110] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:110] EVENT,cseq set1 to 12249 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:110] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 1214 PUBLISH
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p6851759334577550507r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+Call-ID: 10e1780113570031029837k20687rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308838
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:110] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:110] EVENT,cseq set1 to 1214 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:110] EVENT,set totag 1 to: 115739651308838 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:111] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 200 OK
+CSeq: 1214 PUBLISH
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p6851759334577550507r
+From: <sip:JSSIP@46.105.182.20>;tag=12g5766551949498344696m
+Call-ID: 10e1780113570031029837k20687rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115739651308838
+Expires: 3600
+Content-Length: 0
+SIP-ETag: 115739651308869
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:111] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:111] EVENT,cseq set1 to 1214 [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:111] EVENT,ok for presence publish [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:111] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 403 Forbidden
+CSeq: 12249 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p3150962404020312735r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>;tag=115739651308869
+Contact: <sip:JSSIP@46.105.182.20>
+Expires: 3600
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:112] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:13:112] EVENT,cseq set1 to 12249 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:112] EVENT,set totag 1 to: 115739651308869 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:112] EVENT, presence subscribe rejected [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:13:112] EVENT,NOTIFICATION_XRSS,PRESENCE,+,Unknown {50} [4729]
+[2020.04.06 11:57:14:207] EVENT, (voicerecording) nothing to save b 0 0 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:172] EVENT,save settings wpb [wpmain] {34} [4729]
+[2020.04.06 11:57:16:172] EVENT,save settings wp [wpmain] {34} [4729]
+[2020.04.06 11:57:16:172] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (211) {34} [4729]
+[2020.04.06 11:57:16:173] EVENT,config saved 211 [wpmain] {34} [4729]
+[2020.04.06 11:57:16:800] EVENT,NOTIFICATION_XRSS,STOP,api {41} [4729]
+[2020.04.06 11:57:16:803] EVENT,Applet stop 1 [wpmain] {41} [4729]
+[2020.04.06 11:57:16:804] EVENT wpapi closing [wpapi] {42} [4729]
+[2020.04.06 11:57:16:805] EVENT,playsound oop 0 ep 2e4354309789759581837k20685rmwp 1 , 0 false false false false [wpmain] {41} [4729]
+[2020.04.06 11:57:16:805] EVENT,stop file playback [wpmain] {41} [4729]
+[2020.04.06 11:57:16:805] EVENT,no playback in progress [wpmain] {41} [4729]
+[2020.04.06 11:57:16:806] EVENT,start thread MAsyncTask 53 {53} [4729]
+[2020.04.06 11:57:16:806] EVENT,async task start 18 {53} [4729]
+[2020.04.06 11:57:16:806] EVENT,async task 18 finished in 0 msec {53} [4729]
+[2020.04.06 11:57:16:807] EVENT,save settings wpb [wpmain] {41} [4729]
+[2020.04.06 11:57:16:807] EVENT,save settings wp [wpmain] {41} [4729]
+[2020.04.06 11:57:16:807] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (211) {41} [4729]
+[2020.04.06 11:57:16:807] EVENT,config saved 211 [wpmain] {41} [4729]
+[2020.04.06 11:57:16:808] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfgex.dat (2503) {41} [4729]
+[2020.04.06 11:57:16:808] EVENT,apicall API_Unregister [wpmain] {41} [4729]
+[2020.04.06 11:57:16:808] EVENT,Applet unregister [wpmain] {41} [4729]
+[2020.04.06 11:57:16:808] EVENT,NOTIFICATION_XRSS,STATUS,-1,Unregister... {41} [4729]
+[2020.04.06 11:57:16:808] EVENT,save settings wpb [wpmain] {41} [4729]
+[2020.04.06 11:57:16:809] EVENT,save settings wp [wpmain] {41} [4729]
+[2020.04.06 11:57:16:809] EVENT,config saved 211 [wpmain] {41} [4729]
+[2020.04.06 11:57:16:809] EVENT,playsound oop 0 ep 2e4354309789759581837k20685rmwp 1 , 0 false false false false [wpmain] {41} [4729]
+[2020.04.06 11:57:16:810] EVENT,stop file playback [wpmain] {41} [4729]
+[2020.04.06 11:57:16:810] EVENT,no playback in progress [wpmain] {41} [4729]
+[2020.04.06 11:57:16:810] EVENT,unregister event finished [wpmain] {41} [4729]
+[2020.04.06 11:57:16:810] EVENT,NOTIFICATION_XRSS,STATUS,-1,Unregistered. {41} [4729]
+[2020.04.06 11:57:16:811] EVENT,start thread MAsyncTask 54 {54} [4729]
+[2020.04.06 11:57:16:811] EVENT,async task start 18 {54} [4729]
+[2020.04.06 11:57:16:811] EVENT,async task 18 finished in 0 msec {54} [4729]
+[2020.04.06 11:57:16:842] EVENT,exec command 4 line: 1 params: sipstackterminate   elapsed 41 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:842] EVENT, hangup line 1 because sipstackterminate [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:842] EVENT, line 1 not found on hangup b. Will guess [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:843] EVENT, nothing to hangup [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:844] EVENT,exec command 16 line: 1 params:  stop  elapsed 43 [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:844] EVENT,unregistering old endpoint [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:844] EVENT,unregistering [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:844] EVENT,reg state change from Not initialized to Unregistered [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:845] EVENT,build uri rule 4 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:845] EVENT, build leg rule 16 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:845] EVENT, build leg rule 18 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:845] EVENT,sending to p 46.105.182.20 (805) [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:845] SEND,  to 46.105.182.20:5060 from port 14292
+REGISTER sip:46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p1027162239262504635r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+To: <sip:JSSIP@46.105.182.20>
+Call-ID: 6e5339952673226462088k20686rmwp
+CSeq: 5546 REGISTER
+Max-Forwards: 70
+Expires: 0
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22eb90ecee2a106111109704573914114",uri="sip:46.105.182.20",response="6ecd52734f2458b1b206557bcdd73d80",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:846] EVENT,reg state change from Not initialized to Unregistered [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:846] EVENT,reg state changed from [yes] to [unregistered] () {45} [4729]
+[2020.04.06 11:57:16:846] EVENT,NOTIFICATION_XRSS,STATUS,0,Unregister,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,6,0,0,0,0,0, {45} [4729]
+[2020.04.06 11:57:16:846] EVENT,STATUS,0,Unregister,+,JSSIP,1,+,[6e5339952673226462088k20686rmwp],1,6,0,0,0,0,0, [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:846] EVENT,build uri rule 6677 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:847] EVENT, build leg rule 16 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:847] EVENT, build leg rule 1901a  (x) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:847] EVENT,sending to p 46.105.182.20 (768) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:847] SEND,  to 46.105.182.20:5060 from port 14292
+SUBSCRIBE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p3823639465128168317r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+To: <sip:+@46.105.182.20>
+Call-ID: 14e1830458300895194552k20688rmwp
+CSeq: 12250 SUBSCRIBE
+Max-Forwards: 70
+Event: presence
+Expires: 0
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d22f260ec26cb606111109704573914114",uri="sip:+@46.105.182.20",response="18bde56f578820933f8c40fe90cebb3a",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Content-Length: 0
+
+ [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:847] EVENT, presence update not sent to any peer [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:876] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 200 OK
+CSeq: 5546 REGISTER
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p1027162239262504635r
+From: <sip:JSSIP@46.105.182.20>;tag=8g3330889867103573264m
+Call-ID: 6e5339952673226462088k20686rmwp
+To: <sip:JSSIP@46.105.182.20>;tag=115743651312629
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:876] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:877] EVENT,cseq set1 to 5546 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:16:877] EVENT,set totag 1 to: 115743651312629 [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {50} [4729]
+[2020.04.06 11:57:16:877] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 100 Trying
+CSeq: 12250 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p3823639465128168317r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>
+Contact: <sip:+@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:878] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:878] EVENT,cseq set1 to 12250 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:878] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 401 Unauthorised
+CSeq: 12250 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p3823639465128168317r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>;tag=115743651312629
+Contact: <sip:JSSIP@46.105.182.20>
+Expires: 3600
+Content-Length: 0
+WWW-Authenticate: DIGEST realm="VoipSwitch", nonce="26d23df510639f7406111109704574314114"
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:878] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:879] EVENT,cseq set1 to 12250 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:879] EVENT,set totag 1 to: 115743651312629 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:879] EVENT,      get parameter (from 10014) altauth_JSSIP=4 {50} [4729]
+[2020.04.06 11:57:16:879] EVENT,resend last request [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:879] EVENT,build uri rule 6677 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] EVENT, build leg rule 16 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] EVENT, build leg rule 1901a  (x) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] EVENT,auth after pwd parameterA JSSIP:VoipSwitch:wAXNEBaXDJ eeace1f440ea9c8ea4bb0ba705770da9 sip:+@46.105.182.20 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] EVENT, auth params: m1str=eeace1f440ea9c8ea4bb0ba705770da9,auth_nonce=26d23df510639f7406111109704574314114,username=JSSIP,auth_realm=VoipSwitch,method=SUBSCRIBE,uri=sip:+@46.105.182.20 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] EVENT,sending to p 46.105.182.20 (750) [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:880] SEND,  to 46.105.182.20:5060 from port 14292
+SUBSCRIBE sip:+@46.105.182.20 SIP/2.0
+Via: SIP/2.0/UDP 176.100.192.174:14292;rport;branch=z9hG4bK-17p690901074205351098r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+To: <sip:+@46.105.182.20>
+Call-ID: 14e1830458300895194552k20688rmwp
+CSeq: 12251 SUBSCRIBE
+Max-Forwards: 70
+Expires: 0
+Authorization: Digest username="JSSIP",realm="VoipSwitch",nonce="26d23df510639f7406111109704574314114",uri="sip:+@46.105.182.20",response="6574810b1c202ce9ce432445610fa114",algorithm=MD5
+Contact: <sip:JSSIP@176.100.192.174:14292>
+X-UT: j
+User-Agent: MizuJVoIP/7.6.19061
+X-FinalUA: JVoIP
+X-DeviceID: aPBag5AG
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:893] EVENT,NOTIFICATION_XRSS,STOP,api {36} [4729]
+[2020.04.06 11:57:16:907] EVENT,save settings wpb [wpmain] {41} [4729]
+[2020.04.06 11:57:16:908] EVENT,save settings wp [wpmain] {41} [4729]
+[2020.04.06 11:57:16:909] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfg.dat (211) {41} [4729]
+[2020.04.06 11:57:16:909] EVENT,config saved 211 [wpmain] {41} [4729]
+[2020.04.06 11:57:16:910] REC,46.105.182.20:5060 on port 14292
+SIP/2.0 489 Bad Event
+CSeq: 12251 SUBSCRIBE
+Via: SIP/2.0/UDP 192.168.55.101:14292;rport;branch=z9hG4bK-17p690901074205351098r
+From: <sip:JSSIP@46.105.182.20>;tag=16g2770579009458563649m
+Call-ID: 14e1830458300895194552k20688rmwp
+To: <sip:+@46.105.182.20>;tag=115743651312660
+Contact: <sip:+@46.105.182.20>
+Content-Length: 0
+
+ [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:911] EVENT,existing ep found for message [mt: 13693] {50} [4729]
+[2020.04.06 11:57:16:912] EVENT,cseq set1 to 12251 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:913] EVENT,set totag 1 to: 115743651312660 [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {50} [4729]
+[2020.04.06 11:57:16:914] EVENT,write file D:\My Project\SIP_FELGDENT\mwphonedata\u87wpcfgex.dat (2503) {41} [4729]
+[2020.04.06 11:57:16:944] EVENT,destroying old endpoint [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:945] EVENT, destroying [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:945] EVENT,session disc because endpoint destroy [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:946] EVENT,switching state from Finished to Deletable from 1 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:947] EVENT,set deleteat 444 to 120000 [ep: 1 2e4354309789759581837k20685rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:948] EVENT,destroying old endpoint [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:949] EVENT, destroying [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:949] EVENT,reg state change from Not initialized to Unregistered [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:950] EVENT,session disc because endpoint destroy [ep: 0 6e5339952673226462088k20686rmwp Registering 13693] {45} [4729]
+[2020.04.06 11:57:16:951] EVENT,switching state from Registering to Deletable from 1 [ep: 0 6e5339952673226462088k20686rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:952] EVENT,set deleteat 444 to 120000 [ep: 0 6e5339952673226462088k20686rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:953] EVENT,destroying old endpoint [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:953] EVENT, destroying [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:954] EVENT,session disc because endpoint destroy [ep: 0 10e1780113570031029837k20687rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:955] EVENT,switching state from Subscribe to Deletable from 1 [ep: 0 10e1780113570031029837k20687rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:956] EVENT,set deleteat 4 to 120000 [ep: 0 10e1780113570031029837k20687rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:956] EVENT,set deleteat 444 to 120000 [ep: 0 10e1780113570031029837k20687rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:957] EVENT,destroying old endpoint [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:958] EVENT, destroying [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:959] EVENT,session disc because endpoint destroy [ep: 0 14e1830458300895194552k20688rmwp Subscribe 13693] {45} [4729]
+[2020.04.06 11:57:16:959] EVENT,switching state from Subscribe to Deletable from 1 [ep: 0 14e1830458300895194552k20688rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:960] EVENT,set deleteat 444 to 120000 [ep: 0 14e1830458300895194552k20688rmwp Finished 13693] {45} [4729]
+[2020.04.06 11:57:16:961] EVENT,unregistering finished on stop [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:962] EVENT,sip stack run terminating (11)... [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:963] EVENT, hangup line -2 because mainterminated [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:964] EVENT, nothing to hangup [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:964] EVENT,unreg skip because it was done recenly on cleanup [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:965] EVENT,sipstack destroy c [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:966] EVENT,unreg skip because it was done recenly on destroy [mt: 13693] {45} [4729]
+[2020.04.06 11:57:16:967] EVENT,sip stack run terminated (must 11) [mt: 13693] {45} [4729]

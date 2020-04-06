@@ -44,6 +44,11 @@
     -fx-opacity: 1.0;
 }
 
+.buttonCallConversation {
+    -fx-background-image: url(phone_red.png);
+
+}
+
 .text-field-contact-search {
     -fx-background-color: #00aadc;
     -fx-border-radius: 0;

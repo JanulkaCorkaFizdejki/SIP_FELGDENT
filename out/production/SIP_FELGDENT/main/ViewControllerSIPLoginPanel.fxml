@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ViewControllerSIPLoginPanel">
+    <children>
+        <VBox layoutX="-1.0" layoutY="26.0" prefHeight="274.0" prefWidth="320.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="26.0">
+            <children>
+                <Label fx:id="LBL_error_message" prefHeight="17.0" prefWidth="321.0" text="Wprowadź nazwę serwera, użytkownika i hasło!" textFill="#ff6059" />
+                <Label text="DODAJ KONTO SIP" textFill="#00b2e7">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Serwer:" textFill="#00b2e7" />
+                <TextField fx:id="LBL_sip_server" prefHeight="34.0" prefWidth="330.0" style="-fx-background-color: #e8f0fe; -fx-border-color: #cdcdcd;">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin></TextField>
+                <Label fx:id="LBL_sip_user_name" layoutX="10.0" layoutY="10.0" text="Nazwa użytkownika:" textFill="#00b2e7" />
+                <TextField fx:id="LBL_login" layoutX="10.0" layoutY="75.0" prefHeight="34.0" prefWidth="330.0" style="-fx-background-color: #e8f0fe; -fx-border-color: #cdcdcd;">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin></TextField>
+            <Label fx:id="LBL_sip_password" layoutX="10.0" layoutY="119.0" text="Hasło:" textFill="#00b2e7" />
+            <PasswordField fx:id="LBL_password" layoutX="10.0" layoutY="136.0" prefHeight="34.0" prefWidth="330.0" style="-fx-background-color: #e8f0fe; -fx-border-color: cdcdcd;" />
+                <Button fx:id="BTN_logIn" mnemonicParsing="false" onAction="#addSIPAccount" prefHeight="49.0" prefWidth="320.0" style="-fx-background-color: #00b2e7;" text="Dodaj" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="28.0" />
+                    </VBox.margin>
+                </Button>
+                <Pane prefHeight="37.0" prefWidth="320.0" />
+            </children></VBox>
+    </children>
+</AnchorPane>
